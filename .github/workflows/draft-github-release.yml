@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
 
-permissions: {}
+permissions: read-all
 
 jobs:
   draft-github-release:
